@@ -1,0 +1,72 @@
+This file contains message digests of all files listed in MANIFEST,
+signed via the Module::Signature module, version 0.70.
+
+To verify the content in this distribution, first make sure you have
+Module::Signature installed, then type:
+
+    % cpansign -v
+
+It will check each file's integrity, as well as the signature's
+validity.  If "==> Signature verified OK! <==" is not displayed,
+the distribution may already have been compromised, and you should
+not run its Makefile.PL or Build.PL.
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+SHA1 f983c18fdb491c4b733235d54e8ca7563b67a6a3 CONTRIBUTING
+SHA1 360c2a375b15398db1db8bfb86dca7a27e8d370c COPYRIGHT
+SHA1 9e307a5415ca4fa0a76a08bd7236f23f15544ea8 CREDITS
+SHA1 a25400cc6488554aef7e9ed3d87adcf2f773bec4 Changes
+SHA1 937d452c5c4069f4cda9ffaf45a33f1eb5f060e8 LICENSE
+SHA1 65c75f1f06052b5d1448f2461acb77e9290a31c0 MANIFEST
+SHA1 72d29abb5d6e17c11f4d4880ea7c56f2cb42a56b META.ttl
+SHA1 37774d83bd6fe9b9848ab7810c9f19bf5b3592e8 META.yml
+SHA1 5847ba4f788090acc163ed1eb21b34ec3f2ce244 Makefile.PL
+SHA1 332771527b45f4ebe5c8d1bceca625a63928dfe1 README
+SHA1 813cd9ebdd6b2fe6a666b0bff0274a91608a4460 TODO
+SHA1 5289db0ccf71352fa8e3e79dd8eb2f3d8dcc6e7c TODO.mm
+SHA1 65177e83328f702f1540e69e0ac72ee1f82cc696 bin/mm2txt
+SHA1 6afc9764977a86b335a8f2305657f608c85f8641 examples/tttodo-to-text.pl
+SHA1 d970d1094bf1a2933f84cc522519f8c147893079 examples/tttodo.mm
+SHA1 06c410f05488c1612ed66b06d3a86b2580581e4a inc/Module/AutoInstall.pm
+SHA1 8a924add836b60fb23b25c8506d45945e02f42f4 inc/Module/Install.pm
+SHA1 61ab1dd37e33ddbe155907ce51df8a3e56ac8bbf inc/Module/Install/AutoInstall.pm
+SHA1 c04f94f91fa97b9f8cfb5a36071098ab0e6c78e3 inc/Module/Install/AutoManifest.pm
+SHA1 2d0fad3bf255f8c1e7e1e34eafccc4f595603ddc inc/Module/Install/Base.pm
+SHA1 f0e01fff7d73cd145fbf22331579918d4628ddb0 inc/Module/Install/Can.pm
+SHA1 7328966e4fda0c8451a6d3850704da0b84ac1540 inc/Module/Install/Fetch.pm
+SHA1 66d3d335a03492583a3be121a7d888f63f08412c inc/Module/Install/Include.pm
+SHA1 b62ca5e2d58fa66766ccf4d64574f9e1a2250b34 inc/Module/Install/Makefile.pm
+SHA1 1aa925be410bb3bfcd84a16985921f66073cc1d2 inc/Module/Install/Metadata.pm
+SHA1 3b9281ddf7dd6d6f5de0a9642c69333023193c80 inc/Module/Install/Package.pm
+SHA1 4d793c044726e06fe35d8d129b76da2803377f92 inc/Module/Install/Scripts.pm
+SHA1 41f76ff6b39368a65da86377e43b34bacc2fb0eb inc/Module/Install/TrustMetaYml.pm
+SHA1 e4196994fa75e98bdfa2be0bdeeffef66de88171 inc/Module/Install/Win32.pm
+SHA1 c3a6d0d5b84feb3280622e9599e86247d58b0d18 inc/Module/Install/WriteAll.pm
+SHA1 26d58a041cd6b3d21db98b32e8fd1841aae21204 inc/Module/Package.pm
+SHA1 5a2f84a7a82eee0d1e5ed3628fe503a608efc10f inc/Module/Package/Dist/RDF.pm
+SHA1 feb933cefe2e3762e8322bd6071a2499f3440da1 inc/YAML/Tiny.pm
+SHA1 6f04b119b359a9896fca592795c207f26897a454 lib/FreeMind/ArrowLink.pm
+SHA1 007f92ef4d23662173dd0e9dc3c1967ac5893b11 lib/FreeMind/Cloud.pm
+SHA1 1766bf7fb14ccc9bd57f9e18cd466f560467635c lib/FreeMind/Document.pm
+SHA1 594c0164f71847f5021914230a52b60f44bcfc5a lib/FreeMind/Edge.pm
+SHA1 2c5f56dbc8eb28bb4aa50232e74fe0b8fa710e28 lib/FreeMind/Font.pm
+SHA1 3abea43779e6d1a575a04eb1fc91b8df91997161 lib/FreeMind/Icon.pm
+SHA1 7941646c583a433779cdcd5146e1d77e6372681c lib/FreeMind/Map.pm
+SHA1 a708fffbf6f40822a109ab098b413d2cfad4396d lib/FreeMind/Node.pm
+SHA1 55f5b07d5b505f14eef4d6da9273bde33364574f lib/FreeMind/RichContent.pm
+SHA1 3cbc9d1558f0a3c9c80ffc1511ecd94fff5fdb0e lib/FreeMind/Text.pm
+SHA1 02c6686cf9014ea16d1cc4af689d19501dd0410c meta/changes.pret
+SHA1 2f4e1f90233eda5f52db48254fc191429591b256 meta/doap.pret
+SHA1 ad17df22567cdd514bfa405dc68b409a05a6e3c6 meta/makefile.pret
+SHA1 a151cff74b5f29c00381a14d4ec8726e3763b6b2 meta/people.pret
+SHA1 ad050912b847e9d8db03fc4717a971adf5bb4320 t/01basic.t
+SHA1 be3abbed71d9b438c0c4e777213ea219bbc10aa8 t/02totext.t
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.11 (GNU/Linux)
+
+iEYEARECAAYFAlFkeGwACgkQzr+BKGoqfTlx7wCgnKoKHBAdeKK551EIJwM9VExE
+rmgAn1ZWAc2jH8W9gO+F03anpfnnGI6c
+=CP6C
+-----END PGP SIGNATURE-----
