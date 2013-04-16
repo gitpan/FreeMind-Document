@@ -48,6 +48,7 @@ dist:project
 	doap:maintainer   cpan:tobyink;
 	doap:programming-language "Perl";
 	doap:release      dist:v_0-000_01;
+	doap:release      dist:v_0-001;
 	doap:repository   [
 		a doap:HgRepository;
 		doap:browse <https://bitbucket.org/tobyink/p5-freemind-document>;
@@ -63,6 +64,15 @@ dist:v_0-000_01
 	dcs:released-by   cpan:tobyink;
 	doap:file-release <http://backpan.cpan.org/authors/id/T/TO/TOBYINK/FreeMind-Document-0.000_01.tar.gz>;
 	doap:revision     "0.000_01"^^xsd:string.
+
+dist:v_0-001
+	a                 doap:Version;
+	dc:identifier     "FreeMind-Document-0.001"^^xsd:string;
+	dc:issued         "2013-04-16"^^xsd:date;
+	dcs:released-by   cpan:tobyink;
+	doap:file-release <http://backpan.cpan.org/authors/id/T/TO/TOBYINK/FreeMind-Document-0.001.tar.gz>;
+	doap:revision     "0.001"^^xsd:string;
+	rdfs:comment      "(no functional changes)".
 
 cpan:tobyink
 	a                 foaf:Person;
