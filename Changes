@@ -4,11 +4,13 @@ FreeMind-Document
 Created:      2013-04-06
 Home page:    <https://metacpan.org/release/FreeMind-Document>
 Bug tracker:  <http://rt.cpan.org/Dist/Display.html?Queue=FreeMind-Document>
-Maintainer:   Toby Inkster <mailto:tobyink@cpan.org>
+Maintainer:   Toby Inkster (TOBYINK) <tobyink@cpan.org>
 
-0.001  2013-04-16
+0.002	2014-09-10
 
+ [ Packaging ]
+ - Switch to Dist::Inkt.
 
-0.000_01  2013-04-09  # Preview
+0.001	2013-04-16
 
-
+0.000_01	2013-04-09	Preview
